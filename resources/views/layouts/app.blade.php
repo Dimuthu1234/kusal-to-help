@@ -68,12 +68,16 @@
 
 
  <div class="w3-row">
+  @if(Auth::check())
   @include('layouts.left_side_menu')
+  @endif
     <!--MENU-->
    <div class="w3-col s8 w3-centered">
       @yield('content')
    </div>
+   @if(Auth::check())
  @include('layouts.right_side_menu')
+  @endif
 </div> 
     <!-- </div> -->
         <script src="{{ asset('js/app.js') }}"></script>
