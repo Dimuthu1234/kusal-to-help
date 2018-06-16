@@ -14,7 +14,7 @@
     </section> -->
 
     <div class="columns is-marginless is-centered">
-        <div class="column is-8">
+        <div class="column is-10" style="margin-left: 450px; margin-top: 100px">
             <div class="card">
                 <header class="card-header w3-orange">
                     <p class="card-header-title">Login</p>
